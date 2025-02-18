@@ -39,3 +39,5 @@ def fetch_and_save_posts():
     else:
         print(f"Error al obtener los posts. Código de estado: {response.status_code}")
 
+fetch_and_print_posts()
+fetch_and_save_posts()
